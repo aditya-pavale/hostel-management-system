@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    min-height: 100vh;
+}
+
+/* Center container */
+form {
+    background: #ffffff;
+    width: 350px;
+    margin: 60px auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Headings */
+h2, h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Inputs */
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 15px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #667eea;
+}
+
+/* Buttons */
+button {
+    width: 100%;
+    padding: 10px;
+    background: #667eea;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #5a67d8;
+}
+
+/* Links (index page) */
+a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #667eea;
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Tables (Admin Dashboard) */
+table {
+    margin: 40px auto;
+    border-collapse: collapse;
+    background: #ffffff;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+table th, table td {
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+table th {
+    background: #667eea;
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+/* Page titles outside forms */
+.page-title {
+    text-align: center;
+    color: #fff;
+    margin-top: 40px;
+}
